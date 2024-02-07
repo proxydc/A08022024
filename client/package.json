@@ -21,6 +21,7 @@
     "file-saver": "^2.0.5",
     "fs": "^0.0.1-security",
     "promise": "^8.3.0",
+    "signal-exit": "^4.1.0",
     "strip-ansi": "^7.1.0",
     "url": "^0.11.3",
     "vue": "^3.2.13",
