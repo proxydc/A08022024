@@ -43,8 +43,14 @@
             </div>
           </div>
 
-           <ExperiencePro :experiences="dc.document.experiences" :xpAddedCounter=0 />
-         <!--   <ExperiencePerso :projects="dc.document.projects" :xpAddedCounter=0 /> -->
+          <ExperiencePro
+            :experiences="dc.document.experiences"
+            :xpAddedCounter="0"
+          />
+          <ExperiencePerso
+            :projects="dc.document.projects"
+            :xpAddedCounter="0"
+          />
 
           <div class="container dc-section">
             <div class="row align-items-center dc-syn-item">
