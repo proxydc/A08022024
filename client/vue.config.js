@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/client/'
+    publicPath: '/A08022024/client/'
 }
