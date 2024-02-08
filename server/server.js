@@ -7,7 +7,7 @@ const cors = require("cors");
 app.use(express.json());
 app.use(
   cors({
-    origin: "http://localhost:8080",
+    origin: app.get("env")=='development'?"http://localhost:8080": 'https://resonant-mandazi-c5b84b.netlify.app',
   })
 );
 
